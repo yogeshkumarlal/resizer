@@ -1,0 +1,17 @@
+To using this script first install imagemagic package.
+
+I am using Ubuntu 10.10, do following to install this package:-
+
+apt-get install imagemagic ( run this command in sudo mode )
+
+
+To resize you photos do as :-
+
+1. Copy size.sh in your photo folder
+2. run ./size.sh 
+
+Your resize photo will move to resized-<yyyy-mm-dd> folder
+
+
+NOTE: This script will compress your image and will decrease quality little bit.
+      Objactive of this script is to resize photos for uploading to web
